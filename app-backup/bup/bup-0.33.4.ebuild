@@ -9,7 +9,7 @@ inherit python-single-r1
 
 DESCRIPTION="A highly efficient backup system based on the git packfile format"
 HOMEPAGE="https://bup.github.io/ https://github.com/bup/bup"
-SRC_URI="https://github.com/bup/bup/archive/${MY_PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/bup/bup/archive/refs/tags/${MY_PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="0"
